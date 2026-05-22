@@ -74,7 +74,7 @@ static void test_my_sum_fail(void) {
   /* Unity does not have a built-in “expected to fail” annotation.
      The manual result check allows to pass the CI test which is searching for the "FAIL" string.
   */
-  if (sum !=0){
+  if (sum !=1){
     TEST_FAIL_MESSAGE("Expected false-positive pattern");
   }
 }
